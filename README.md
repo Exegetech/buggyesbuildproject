@@ -2,7 +2,7 @@
 
 Repo for reproduction of stale build in `esbuild`.
 
-## Steps B
+## Steps To Reproduce
 This below steps don't work as expected:
 1. Run `bazel clean` to make sure we start from a clean slate
 2. `git checkout HEAD~1` to checkout commit that says "Using Util.ts"
