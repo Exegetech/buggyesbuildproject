@@ -12,5 +12,8 @@ This below steps don't work as expected:
 6. Run `bazel build //mypackage:build`
 7. Observe that it does not build
 
+If we run `bazel clean` before step 5, it builds correctly
+
 What should happen: It should build correctly.
+
 
