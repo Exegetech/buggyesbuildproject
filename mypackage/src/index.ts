@@ -1,3 +1,3 @@
-import { hello } from './Util';
+import { hello } from './util';
 
 hello();
